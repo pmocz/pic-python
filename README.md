@@ -1,4 +1,4 @@
-# nbody-python
+# pic-python
 Vectorized Plasma PIC code (Python)
 
 ## Create Your Own Plasma PIC Simulation (With Python)
