@@ -40,7 +40,7 @@ def getAcc( pos, Nx, boxsize, n0, Gmtx, Lmtx ):
 	n *= n0 * boxsize / N / dx 
 	
 	# Solve Poisson's Equation: laplacian(phi) = n-n0
-	phi_grid = spsolve(Lmtx, n-n0)
+	phi_grid = spsolve(Lmtx, n-n0, permc_spec="MMD_AT_PLUS_A")
 	
 	# Apply Derivative to get the Electric field
 	E_grid = - Gmtx @ phi_grid
