@@ -3,7 +3,7 @@ Vectorized Plasma PIC code (Python)
 
 ## Create Your Own Plasma PIC Simulation (With Python)
 
-### Philip Mocz (2020) Princeton Univeristy, [@PMocz](https://twitter.com/PMocz)
+### Philip Mocz (2020) Princeton University, [@PMocz](https://twitter.com/PMocz)
 
 ### [📝 Read the Algorithm Write-up on Medium](https://medium.com/swlh/create-your-own-plasma-pic-simulation-with-python-39145c66578b)
 
